@@ -1,0 +1,61 @@
+.Navbar_main_div
+{
+    position:fixed;
+    z-index: 1000;
+    background-color: white;
+    width:100%;
+    display:flex;
+    padding:50px;
+    align-items: center;
+    justify-content: space-around;
+    height:130px;
+    box-sizing: border-box;
+}
+.Navbar_main_div img{
+    width:150px;
+}
+.Navbar_Pages
+{
+    font-weight:600;
+    color: rgb(74, 3, 180);
+    font-size:20px;
+    width:1000px;
+    /* border:1px solid green; */
+}
+.Navbar_Pages_nav_ul
+{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.Navbar_Register
+{
+    font-weight:500;
+    color: rgb(74, 3, 180);
+    width:200px;
+    text-decoration: none;
+    font-size:20px;
+}   
+.Navbar_Register_nav_ul
+{
+    display:flex;
+    align-items:center;
+    padding:15px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.Navbar_Register_nav_ul button{
+    font-size:20px; 
+    cursor:pointer;
+    border:none;
+    padding:8px;
+    width:90px;
+    height:50px;
+    color:white;
+    border-radius:30px;
+    background-color: rgb(74, 3, 180);
+}
+.navbar__buttons__sign-in
+{
+    text-decoration: none;
+}

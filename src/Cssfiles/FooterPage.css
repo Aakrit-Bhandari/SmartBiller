@@ -1,0 +1,31 @@
+.Footer_block
+{
+    display:flex;
+    padding:30px;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.Footer_block h1
+{
+    font-size:30px;
+    color:rgb(0, 173, 173);
+}
+.Footer_block_aboutus
+{
+    width:500px;
+}
+.Footer_block_usefulinfo
+{
+    width:430px;
+}
+.usefulinfo
+{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+.Footer_block_businessinfo
+{
+    height:340px;
+}
